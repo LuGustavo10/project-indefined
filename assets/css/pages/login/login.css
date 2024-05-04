@@ -1,0 +1,110 @@
+body{
+    background-image: url(../../../images/pages/login/background.jpg); 
+    background-size: cover;
+    width: 100%; 
+}
+
+#register-container {
+  background-color: #1f1f22c2;
+  width: 400px;
+  margin-left: auto;
+  margin-right: 5rem;
+  padding: 20px 30px;
+  margin-top: 12vh;
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.col-12 {
+  margin-top: 2rem;
+}
+
+.form-label {
+  color: #ffff;
+  text-align: center;
+}
+
+.form-control {
+  background-color: #313136c0;
+  color: #ffff;
+}
+
+.form-control:focus {
+    border-color: #6f42c1; 
+    box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.25); 
+}
+
+
+.form-control::placeholder {
+  color: #6d6969;
+}
+
+.form-control:focus {
+  background-color: #313136c0;
+  color: #ffff;
+}
+
+.cad-bot {
+  background-color: #5830b8;
+  color: #fff;
+  border: #00000081 solid 1px;
+}
+
+.cad-bot:hover {
+  background-color: #4e14d4;
+  color: #fff;
+  border: #000000 solid 1px;
+}
+
+.log-bot{
+    background-color: #5930b86e;
+    color: #ffff;
+}
+.log-bot:hover{
+    background-color: #4e14d4;
+    color: #ffff;
+    border: #000000 solid 1px;
+}
+
+/* linha do ou */
+.line-container {
+  display: flex;
+  align-items: center;
+}
+.line {
+  flex: 1;
+  border-top: 1px solid #413c3c;
+}
+.line-text {
+  margin: 0 10px;
+  color: #fff;
+}
+
+/* logar com google */
+.google-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.google-btn i {
+  margin-right: 10px;
+}
+.google-btn:hover {
+  background-color: #f1f1f1;
+}
+
+
+.es-senha{
+    color: #2360bb;
+    text-decoration: underline;
+    font-size: 12px;
+}

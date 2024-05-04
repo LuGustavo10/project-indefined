@@ -30,13 +30,13 @@
   animation: none;
 }
 
-.cards{
+#cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.card{
+#card {
   width: 40%;
   font-size: 24px;
   margin: 100px 10px;
@@ -45,5 +45,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  }
+  border-radius: 10px;
+}
+
+.btn-outline-primary {
+  margin-left: auto;
+}
+
+.d-flex {
+  margin-left: auto;
+}
+
+
+
+
+
 
