@@ -1,7 +1,7 @@
-body{
-    background-image: url(../../../images/pages/login/background.jpg); 
-    background-size: cover;
-    width: 100%; 
+body {
+  background-image: url(../../../images/pages/login/background.jpg);
+  background-size: cover;
+  width: 100%;
 }
 
 #register-container {
@@ -10,7 +10,7 @@ body{
   margin-left: auto;
   margin-right: 5rem;
   padding: 20px 30px;
-  margin-top: 12vh;
+  margin-top: 15vh;
   border-radius: 10px;
 }
 
@@ -34,10 +34,9 @@ form {
 }
 
 .form-control:focus {
-    border-color: #6f42c1; 
-    box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.25); 
+  border-color: #6f42c1;
+  box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.25);
 }
-
 
 .form-control::placeholder {
   color: #6d6969;
@@ -60,14 +59,14 @@ form {
   border: #000000 solid 1px;
 }
 
-.log-bot{
-    background-color: #5930b86e;
-    color: #ffff;
+.log-bot {
+  background-color: #5930b86e;
+  color: #ffff;
 }
-.log-bot:hover{
-    background-color: #4e14d4;
-    color: #ffff;
-    border: #000000 solid 1px;
+.log-bot:hover {
+  background-color: #4e14d4;
+  color: #ffff;
+  border: #000000 solid 1px;
 }
 
 /* linha do ou */
@@ -85,7 +84,7 @@ form {
 }
 
 /* logar com google */
-.google-btn {
+.login-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -95,9 +94,28 @@ form {
   border-radius: 30px;
   cursor: pointer;
 }
-.google-btn i {
+.login-btn i {
   margin-right: 10px;
 }
-.google-btn:hover {
-  background-color: #f1f1f1;
+
+/* logar com github */
+.github{
+  background-color: #000000;
+  color: #ffffffe1;
+}
+
+.fa-github{
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+/* texto do site */
+.text-marketplace {
+  color: #ffffffe1;
+  margin-left: 14rem;
+  margin-top: 10rem;
+  position: absolute;
+  background-color: #0000009a;
+  border-radius: 15px;
+  padding: 15px;
 }
