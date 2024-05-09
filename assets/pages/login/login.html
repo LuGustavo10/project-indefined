@@ -10,6 +10,10 @@
 
     <link rel="stylesheet" href="../../css/pages/login/login.css">
     <link rel="stylesheet" href="../../css/global/fonts.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="../../js/global/FirebaseConfig/FirebaseConfig.js"></script>
+
 </head>
 
 <body>
@@ -32,22 +36,22 @@
         </div>
 
 
-        <form class="row g-3 needs-validation" novalidate>
+        <form class="row g-3 needs-validation" id="form-login" novalidate>
             <div class="col-md-14">
                 <label for="validationCustom02" class="form-label">Email</label>
-                <input type="email" class="form-control" id="validationCustom02" placeholder="Insira seu email"
+                <input type="email" class="form-control" id="validati-Email" placeholder="Insira seu email"
                     required>
                 <div class="valid-feedback">
-                    Looks good!
+                    Perfeito!
                 </div>
             </div>
 
             <div class="col-md-14">
                 <label for="validationCustom03" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="validationCustom03" placeholder="Insira sua senha"
+                <input type="password" class="form-control" id="validation-Password" placeholder="Insira sua senha"
                     required>
                 <div class="valid-feedback">
-                    Looks good!
+                    Perfeito!
                 </div>
             </div>
 
@@ -77,6 +81,8 @@
     </div>
 
 </body>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
